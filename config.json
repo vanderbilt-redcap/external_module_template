@@ -1,0 +1,65 @@
+{
+    "// EM Template repo": "https://github.com/vanderbilt-redcap/external_module_template",
+    "// framework documentation README": "https://github.com/vanderbilt-redcap/external-module-framework-docs/tree/main?tab=readme-ov-file#redcap-external-module-framework-documentation",
+    "name": "external_module_template",
+    "description": "module description",
+    "namespace": "ExternalModuleTemplate\\ExternalModule",
+    "documentation": "README.md",
+    "// framework version documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/tree/main/versions",
+    "framework-version": 16,
+    "authors": [
+        {
+            "name": "M. Commodore",
+            "email": "datacore@vumc.org",
+            "institution": "Vanderbilt University Medical Center"
+        }
+    ],
+    "// configuration documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/config.md",
+    "system-settings": [
+        {
+            "name": "A medium length description of the field",
+            "key": "description_system_setting",
+            "type": "descriptive"
+        },
+        {
+            "name": "System Setting",
+            "key": "system_setting",
+            "type": "text"
+        }
+    ],
+    "project-settings": [
+        {
+            "name": "Project Setting",
+            "key": "project_setting",
+            "type": "text",
+            "hidden": true
+        }
+    ],
+    "// pages documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/pages.md",
+    "links": {
+        "project": [
+            {
+                "name": "Project Page",
+                "icon": "fa fa-cloud-arrow-up",
+                "url": "pages/project_page.php",
+                "show-header-and-footer": true
+            }
+        ]
+    },
+    "// crons documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/crons.md",
+    "crons": [
+        {
+            "cron_name": "cron1",
+            "cron_description": "Cron that runs every 30 minutes to do X",
+            "method": "myCronFunction",
+            "cron_frequency": "1800",
+            "cron_max_run_time": "86400"
+        }
+    ],
+    "// ajax documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/ajax.md",
+    "auth-ajax-actions": [
+        "action1"
+    ],
+    "// compatibility documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/compatibility.md",
+    "compatibility": {}
+}
