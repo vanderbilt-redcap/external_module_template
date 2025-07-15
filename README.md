@@ -9,7 +9,7 @@ Module description from config.json
 
 ## Easy installation
 <!-- generated from config.json -->
-- Install the _Name_ module from the Consortium [REDCap Repo](https://redcap.vanderbilt.edu/consortium/modules/index.php) from the Control Center.
+- Install the _Name_ module from the Consortium [REDCap Repo](https://redcap.vumc.org/consortium/modules/index.php) from the Control Center.
 
 ## Manual Installation
 <!-- generated from config.json -->
