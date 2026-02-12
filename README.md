@@ -35,4 +35,5 @@ Module description from config.json
 
 ## Use
 
-<!-- Screenshots with UI elements if applicable -->
+<!-- Screenshots with UI elements if applicable, store images in the examples directory -->
+<!-- Direct users readers to example project XML and EM config zip stored in the examples directory -->
