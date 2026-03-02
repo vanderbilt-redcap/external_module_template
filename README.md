@@ -23,6 +23,11 @@ Module description from config.json
 
 <!-- Mention any limitations to this module that users may expect, e.g. won't work with repating instances or events, won't work with signature fields -->
 
+If **checked**, you can expect the module to account for these common project variants:
+- [ ] Longitudinal projects
+- [ ] Repeating events
+- [ ] Repeating instances
+
 ## System Configuration
 
 <!-- generated from config.json -->
